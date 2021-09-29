@@ -1,0 +1,502 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: 'Original Surfer', cursive;
+}
+
+.nav-container {
+  background: #ffffff;
+  height: 70px;
+}
+
+.wrapper {
+  max-width: 1450px;
+  margin: 0 auto;
+}
+.imgsize {
+  width: 100%;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 72px;
+}
+
+nav ul {
+  display: flex;
+}
+nav .logo {
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 52px;
+  text-align: center;
+  color: #000000;
+  margin-left: 5px;
+}
+.nav-items li {
+  list-style: none;
+  margin-right: 25px;
+}
+.nav-items li a {
+  color: #000000;
+  font-weight: bold;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+}
+
+.nav-items li a:hover {
+  text-decoration: underline;
+}
+
+.header-container {
+  position: relative;
+  text-align: center;
+}
+
+.bottom {
+  position: absolute;
+  font-size: 35px;
+  line-height: 67px;
+  font-weight: bold;
+  top: 20%;
+  left: 28%;
+  color: #ffffff;
+}
+.search-container {
+  position: absolute;
+  font-size: 35px;
+  line-height: 67px;
+  font-weight: bold;
+  top: 40.3%;
+  left: 27%;
+  color: #ffffff;
+}
+form.search input {
+  width: 480px;
+  height: 30px;
+}
+form.search button {
+  width: 85px;
+  height: 30px;
+  margin-top: 27px;
+  color: #ffffff;
+  background-color: #006ff0;
+  border: none;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+.adjust {
+  margin-right: 385px;
+}
+h2 {
+  margin-top: 40px;
+  text-align: center;
+  font-size: 29px;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  line-height: 60px;
+}
+.cont {
+  max-width: 800px;
+  font-size: 18px;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  margin-left: 235px;
+  margin-bottom: 40px;
+}
+
+h3 {
+  margin-top: 60px;
+  text-align: left;
+  margin-left: 230px;
+  font-size: 29px;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  line-height: 60px;
+}
+.content {
+  max-width: 1200px;
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  margin-left: 70px;
+  margin-top: 10px;
+}
+.content img {
+  margin-top: -80px;
+  float: right;
+  margin-left: 50px;
+  margin-right: 10px;
+}
+.rectangle {
+  margin-top: 150px;
+  background: #000000;
+  color: #ffffff;
+  height: 90px;
+  margin-bottom: 10px;
+}
+
+navi {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 72px;
+  color: #000000;
+}
+navi ul {
+  display: flex;
+}
+.navi-items li {
+  list-style: none;
+  margin-right: 25px;
+}
+.navi-items li a {
+  background: #000000;
+  color: #ffffff;
+  position: relative;
+
+  text-align: center;
+  left: 500px;
+  font-size: 14px;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+}
+.navi-items li a:hover {
+  text-decoration: underline;
+}
+.rectangle p {
+  position: relative;
+  bottom: 10px;
+  color: #ffffff;
+  font-size: 14px;
+  font-family: "Poppins", sans-serif;
+  text-align: left;
+  margin-left: 38px;
+}
+
+.login-nav-container {
+  background: #ffffff;
+  height: 72px;
+}
+
+.login-wrapper {
+  max-width: 1250px;
+  margin: 0 auto;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 72px;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav .login-logo {
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 52px;
+  text-align: center;
+  color: #000000;
+}
+.login-nav-items li {
+  list-style: none;
+  margin-right: 25px;
+}
+.login-nav-items li a {
+  color: #000000;
+  font-weight: bold;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+}
+
+.login-nav-items li a:hover {
+  text-decoration: underline;
+}
+
+.login-sidenav {
+  margin-top: 72px;
+  width: 450px;
+  height: 650px;
+  position: absolute;
+  float: left;
+  top: 0;
+  left: 0;
+  background-color: #ffd898;
+
+  padding-top: 20px;
+  font-size: 28px;
+}
+.login-text {
+  margin-left: 20px;
+  font-size: 25px;
+  padding-top: 60px;
+  margin-top: 100px;
+  font-family: "Poppins", sans-serif;
+}
+.login {
+  display: flex;
+  justify-content: space-between;
+  width: 500px;
+  overflow: hidden;
+  margin: auto;
+  margin-right: 200px;
+
+  margin-top: 0px;
+  padding: 80px;
+  padding-top: 20px;
+  background: #ffffff;
+  border-radius: 15px;
+}
+
+h2 {
+  text-align: right;
+  margin-right: 400px;
+  color: #000000;
+  padding-top: 20px;
+}
+
+label {
+  color: black;
+  font-size: 17px;
+}
+#Uname {
+  width: 400px;
+  height: 30px;
+  border: 1px solid gray;
+  border-radius: 3px;
+  padding-left: 8px;
+}
+#Pass {
+  width: 400px;
+  height: 30px;
+  border: 1px solid gray;
+  border-radius: 3px;
+  padding-left: 8px;
+}
+#log {
+  width: 100px;
+  height: 30px;
+  border-radius: 17px;
+  border: 1px solid;
+  padding-bottom: 25px;
+  padding-left: 20px;
+}
+span {
+  font-size: 15px;
+}
+a {
+  float: right;
+  background-color: white;
+}
+
+.login-rectangle {
+  margin-top: 150px;
+  background: #000000;
+  color: #ffffff;
+  height: 90px;
+}
+
+navi {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 72px;
+  color: #000000;
+}
+navi ul {
+  display: flex;
+}
+.login-navi-items li {
+  list-style: none;
+  margin-right: 25px;
+}
+.login-navi-items li a {
+  background: #000000;
+  color: #ffffff;
+  position: relative;
+  text-align: center;
+  left: 450px;
+  font-weight: bold;
+  font-size: 14px;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+}
+.login-nav-items li a:hover {
+  text-decoration: underline;
+}
+.login-rectangle p {
+  position: relative;
+  bottom: 10px;
+
+  color: #ffffff;
+  font-size: 14px;
+  font-family: "Poppins", sans-serif;
+  text-align: left;
+  margin-left: 38px;
+}
+
+.register-sidenav {
+  /* Full-height: remove this if you want "auto" height */
+  width: 450px; /* Set the width of the sidebar */
+  height: 750px;
+  position: relative;
+  float: left;
+  top: 0; /* Stay on top */
+  /* Stay at the top */
+
+  background-color: #ffd898;
+
+  padding-top: 20px;
+  font-size: 28px;
+}
+.register-text {
+  margin-top: 100px;
+  margin-left: 30px;
+  font-size: 25px;
+}
+.Register-container {
+  float: right;
+  margin-right: 30px;
+  margin-top: 40px;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 360px;
+  height: 25px;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: 1px solid black;
+  background: white;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+  float: right;
+}
+
+/* Set a style for all buttons */
+button {
+  float: right;
+  background-color: #4caf50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 25%;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity: 1;
+}
+
+.Register-rectangle {
+  background: #000000;
+  color: #ffffff;
+  height: 90px;
+  margin-top: 750px;
+}
+
+navi {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 72px;
+  color: #000000;
+}
+navi ul {
+  display: flex;
+}
+.Register-navi-items li {
+  list-style: none;
+  margin-right: 25px;
+}
+.Register-navi-items li a {
+  background-color: black;
+  color: #ffffff;
+  position: relative;
+  font-weight: bold;
+  text-align: center;
+  left: 500px;
+  font-size: 14px;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+}
+.Register-navi-items li a:hover {
+  text-decoration: underline;
+}
+.Register-rectangle p {
+  position: relative;
+  bottom: 10px;
+  color: #ffffff;
+  font-size: 14px;
+  font-family: "Poppins", sans-serif;
+  text-align: left;
+  margin-left: 38px;
+}
+
+.h3 {
+  margin-left: 300px;
+}
+.report-left-text {
+  float: left;
+  margin-left: 120px;
+  margin-top: 40px;
+}
+.report-right-text {
+  float: right;
+  margin-right: 480px;
+  margin-top: 40px;
+}
+.link-text {
+  color: #006ff0;
+  margin-top: 140px;
+  margin-left: 120px;
+}
+.link-text:hover {
+  text-decoration: underline;
+}
+p {
+  margin-left: 120px;
+}
+textarea {
+  margin-top: 20px;
+  border: 2px solid black;
+  width: 40%;
+  margin-left: 120px;
+  padding: 7px;
+  font-size: 16px;
+}
+.report-button {
+  margin-left: 120px;
+}
+#rep {
+  color: white;
+  background-color: #4caf50;
+  cursor: pointer;
+  width: 80px;
+  height: 30px;
+  border-radius: 10px;
+  border: 1px;
+}

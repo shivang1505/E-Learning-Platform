@@ -1,0 +1,250 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.nav-container {
+  background: #ffffff;
+  height: 70px;
+}
+
+.wrapper {
+  max-width: 1270px;
+  margin: 0 auto;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 72px;
+}
+
+nav ul {
+  display: flex;
+}
+nav .logo {
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 52px;
+  text-align: center;
+  color: #000000;
+  margin-left: 5.5px;
+}
+.nav-items li {
+  list-style: none;
+  margin-right: 25px;
+}
+.nav-items li a {
+  color: #000000;
+  font-weight: bold;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+}
+
+.nav-items li a:hover {
+  text-decoration: underline;
+}
+.head-container {
+  height: 55px;
+  background-color: #a6001e;
+}
+.headlogo {
+  color: #ffffff;
+  font-size: 19px;
+  font-weight: bold;
+  padding-top: 18px;
+  margin-left: 50px;
+}
+
+header {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+h2 {
+  font-size: 20px;
+  padding-left: 50px;
+  margin-top: 25px;
+}
+.up {
+  padding-top: 5px;
+  width: 90px;
+  height: 29px;
+  font-family: "Poppins", sans-serif;
+  background-color: darkcyan;
+  border-style: none;
+  border-radius: 10px;
+  margin: auto;
+  margin-right: 150px;
+}
+.up:hover {
+  text-shadow: black;
+}
+.up a {
+  text-decoration: none;
+  color: white;
+  margin-top: 5px;
+  margin-left: 12px;
+}
+.up a:hover {
+  color: black;
+}
+label {
+  font-size: 18px;
+  font-weight: bold;
+  margin-left: 930px;
+  margin-top: -25px;
+  float: left;
+}
+select {
+  font-size: 15px;
+  margin-left: 1000px;
+  margin-top: -25px;
+  float: left;
+}
+hr {
+  width: 92%;
+  margin-left: 4%;
+  margin-right: 15%;
+  margin-top: 10px;
+}
+h4 {
+  margin-top: 8px;
+  margin-left: 60px;
+  margin-bottom: 23px;
+}
+.des {
+  max-width: 700px;
+  margin-top: 8px;
+  margin-left: 60px;
+}
+.link {
+  text-decoration: none;
+  max-width: 700px;
+  margin-top: 20px;
+  margin-left: 60px;
+}
+
+.items {
+  margin-right: 3%;
+  margin-top: -105px;
+  float: right;
+}
+.n-items li {
+  padding: 2px 0px;
+}
+.n-items li {
+  list-style: none;
+}
+.n-items li::before {
+  content: "\2022";
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+.n-items li:nth-child(1)::before {
+  color: red;
+}
+.n-items li:nth-child(2)::before {
+  color: #0057ff;
+}
+.edit {
+  margin-left: 50px;
+}
+.results {
+  min-height: 439px;
+}
+.edit a {
+  margin-right: 100px;
+  width: 90px;
+  margin-left: -10px;
+  margin-top: 7px;
+  padding-top: 2.5px;
+  padding-bottom: 2.5px;
+  text-decoration: none;
+  text-align: center;
+  color: black;
+  display: block;
+  background-color: #c4c4c4;
+}
+.delete {
+  margin-left: 50px;
+}
+.delete a {
+  margin-right: 100px;
+  width: 90px;
+  margin-left: -10px;
+  margin-top: 7px;
+  padding-top: 2.5px;
+  padding-bottom: 2.5px;
+  text-decoration: none;
+  text-align: center;
+  color: black;
+  display: block;
+  background-color: #c4c4c4;
+}
+.pagination {
+  display: inline-block;
+  margin-left: 40%;
+  margin-top: 30px;
+}
+
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  border-radius: 2px;
+}
+.pagination a:hover {
+  background-color: #c4c4c4;
+}
+.rectangle {
+  margin-top: 10px;
+  background: #000000;
+  color: #ffffff;
+  height: 90px;
+  bottom: 0%;
+}
+navi {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 72px;
+  color: #ffffff;
+}
+navi ul {
+  display: flex;
+}
+.navi-items li {
+  list-style: none;
+  margin-right: 25px;
+}
+.navi-items li a {
+  color: #ffffff;
+  position: relative;
+  font-weight: bold;
+  text-align: center;
+  left: 500px;
+  font-size: 14px;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+}
+.navi-items li a:hover {
+  text-decoration: underline;
+}
+.rectangle p {
+  position: relative;
+  bottom: 10px;
+  color: #ffffff;
+  font-size: 14px;
+  font-family: "Poppins", sans-serif;
+  text-align: left;
+  margin-left: 38px;
+}
